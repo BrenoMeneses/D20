@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <script src="JS/script.JS" defer></script>
+    <title> DADOS </title>
+</head>
+
+
+<body>
+    <header>
+        <h1> DADOS </h1>
+    </header>
+    <nav id="nav">
+        <ul>
+            <li><a href="#">dados</a>
+                <ul>
+                    <li> 
+                        <menu id="menuDados">
+                            <button class="botaoD" onclick="getRandom(20)"> D20 </button>
+                            <button class="botaoD" onclick="getRandom(12)"> D12 </button>
+                            <button class="botaoD" onclick="getRandom(10)"> D10 </button>
+                            <button class="botaoD" onclick="getRandom(8)"> D8 </button>
+                            <button class="botaoD" onclick="getRandom(6)"> D6 </button>
+                            <button class="botaoD" onclick="getRandom(4)"> D4 </button>
+                        </menu>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#" id="CRIAR">criar</a>
+                <ul>
+                    <li>
+                        <menu id="menuCriar">
+                                <form method="post" autocomplete="off" id="form1">
+                                    <div id="divCriar">
+                                        <input type="text" name="texto" id="texto" required>
+                                        <input type="submit" value="CRIAR" id="Bcriar">
+                                    </div>
+                                </form>
+                        </menu>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <div id="AreaSoma"> 
+            <p id="pSoma">0</p> <p id="pSoma2">0</p> 
+            <button class="botaoR" onclick="RESET()"> RESET </button>
+        </div>
+    </main>
+
+</body>
+</html>
