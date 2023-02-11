@@ -1,1 +1,1 @@
-# D20 site pra gerar números
+# um simples site pra gerar números aleatórios
