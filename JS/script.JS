@@ -3,14 +3,9 @@ let GuardarNum = [];
 
 Bcriar.addEventListener('click', (e) => {
     e.preventDefault()
-    let GuardarNum2 = [];
-    var numBotao = 0
     const valor = document.getElementById('texto').value
     getRandom(valor)
 })
-
-const ble = document.getElementById('texto').value
-console.log(ble)
 
 function getRandom(max){
     var S = 0;
