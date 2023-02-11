@@ -1,11 +1,10 @@
 const Bcriar = document.getElementById('Bcriar')
 let GuardarNum = [];
 
-Bcriar.addEventListener('click', (e) => {
-    e.preventDefault()
+function Bcriar(){
     const valor = document.getElementById('texto').value
     getRandom(valor)
-})
+}
 
 function getRandom(max){
     var S = 0;
